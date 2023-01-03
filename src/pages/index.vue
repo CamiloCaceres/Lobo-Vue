@@ -10,6 +10,7 @@
 </script>
 
 <template>
+	<Card />
 	<div class="grid place-items-center min-h-[80vh]">
 		<div>
 			<img :src="VitailseLogo" width="300" class="mx-auto" />
@@ -46,7 +47,7 @@
 			</div>
 		</div>
 		<router-link
-			:to="{ name: 'other-page' }"
+			:to="{ name: 'all-cards' }"
 			class="
 				mt-5
 				text-center
